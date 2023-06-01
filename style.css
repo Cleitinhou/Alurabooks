@@ -1,0 +1,24 @@
+:root{
+   --cor-de-fundo:#4e5b75;
+
+}
+body{
+    background-color: #4e5b75;
+    position: absolute;
+    
+
+}
+h1{
+    font-size: 60spx;
+    color: aliceblue;
+    background-color: #173674;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+img{
+    margin: auto;
+    position: relative;
+
+}
+
