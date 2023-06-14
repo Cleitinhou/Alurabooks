@@ -1,0 +1,33 @@
+.tópicos{
+    background-image: linear-gradient(45deg,#002F52,#002F52,#0f4164,#164d74,#0f4164,#002F52,#002F52);
+   background-size: 500% 100%;
+   animation: degrade 3.5s infinite linear alternate-reverse;
+    text-align: center;
+    padding: 1em 0;
+
+}
+
+.tópicos--titulo{
+    color: var(--branco);
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.tópicos--lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tópicos-item{
+    margin: 2em 0.5em;
+}
+
+.tópicos--link{
+    color: var(--branco);
+    background-color: var(--laranja);
+    font-weight: 700;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 14px;
+}
