@@ -1,0 +1,48 @@
+.banner{
+   background-image: linear-gradient(45deg,#002F52,#002F52,#0f4164,#276ea0,#0f4164,#002F52,#002F52);
+   background-size: 500% 100%;
+   animation: degrade 3.5s infinite linear alternate-reverse;
+   color: var(--branco);
+   text-align: center;
+   padding: 2.5em 2em;
+}
+
+@keyframes degrade{ 
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+.banner--titulo{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner--texto{
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.banner--pesquisa{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+    margin-left: 0.1em;
+}
+
+.banner--pesquisa::placeholder{
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: var(--branco);
+    background: url("../img/Vector.svg") no-repeat ;
+    background-position: 1em;
+    margin: -1em;
+}
