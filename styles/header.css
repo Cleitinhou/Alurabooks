@@ -5,7 +5,9 @@
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+    margin-bottom: 0.4em;
 }
+
 
 .cabecalho{
     background-color: var(--branco);
@@ -13,6 +15,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    margin: -0.5em;
 }
 
 .container{
@@ -27,7 +30,9 @@
     display: none;
     position: absolute;
     top: 100%;
-    width: 60vw;
+    width: 75vw;
+    margin-top: -1.2em;
+    margin-left: -3em;
 }
 
 .container--botao:checked~.lista-menu{
@@ -55,4 +60,4 @@
 
 .container--botao{
     display: none;
-}
+} 

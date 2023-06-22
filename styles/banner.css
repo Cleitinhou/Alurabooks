@@ -5,6 +5,7 @@
    color: var(--branco);
    text-align: center;
    padding: 2.5em 2em;
+   margin: -1em;
 }
 
 @keyframes degrade{ 
