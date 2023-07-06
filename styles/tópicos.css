@@ -3,14 +3,16 @@
    background-size: 500% 100%;
    animation: degrade 3.5s infinite linear alternate-reverse;
     text-align: center;
-    padding: 1em 0;
-
+    padding: -1em 0em;
+    margin: -1em;
+    border-radius: 20px;
+    border-top-left-radius: 30px;
 }
 
 .tópicos--titulo{
     color: var(--branco);
-    font-weight: 300;
-    margin-bottom: 1em;
+    font-weight: 500;
+    margin-top: 2em;
 }
 
 .tópicos--lista{
@@ -23,6 +25,7 @@
 .tópicos-item{
     margin: 2em 0.5em;
         list-style-type: none;
+
       }
 
 
@@ -34,4 +37,6 @@
     text-decoration: none;
     font-size: 14px;
     list-style-type: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50); 
       }

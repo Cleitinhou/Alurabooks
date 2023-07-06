@@ -1,8 +1,11 @@
 hr{
-    margin: 0;
+    margin: 0
 }
 
 .rodapé{
     background-color: var(--branco);
     padding: 1em;
+    margin: -1em;
+    margin-top: 1em ;
 }
+
